@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #f5f5f5;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    background-color: #1f6da3;
+}
+
+#tacheInput {
+    padding: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    border: 2px solid #3498db;
+    margin-top: 20px;
+    background-color: white;
+}
+
+table th {
+    background-color: #555;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid #666;
+}
+
+table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+
+table td:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #ddd;
+}
+
+.liste-titre {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #666;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1) inset;
+    border-bottom: 3px solid #2980b9;
+}
+
+.liste-titre:hover {
+    background-color: #2980b9;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#filtreSelect {
+    padding: 5px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#filtreSelect:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Style pour le bouton supprimer */
+td button {
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    font-size: 0.9em;
+}
+
+td button:hover {
+    background-color: #c0392b;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
